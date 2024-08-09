@@ -1,0 +1,12 @@
+# history
+/.history/
+
+# google-services
+google-services.json
+cc-google-services.json
+
+#.egg-info
+/your_project_name.egg-info/
+
+#env
+/.env/
