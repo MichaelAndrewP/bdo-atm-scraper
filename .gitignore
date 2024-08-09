@@ -9,4 +9,4 @@ cc-google-services.json
 /your_project_name.egg-info/
 
 #env
-/.env/
+.env
