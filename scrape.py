@@ -114,7 +114,7 @@ def transform_item(item):
                 'deviceModel': '',
                 'osVersion': ''
                         },
-            'status': 'online', 
+            'status': '', 
             'timestamp': current_time,
         },       
         'location': {
@@ -123,7 +123,7 @@ def transform_item(item):
         },
         'name': item['name'],
         'qrCode': 'https://example.com/qrcode/ ',
-        'status': '',
+        'status': 'online',
           'addedBy': 'admin',
     }
 
