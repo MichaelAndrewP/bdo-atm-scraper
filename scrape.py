@@ -123,7 +123,8 @@ def transform_item(item):
         },
         'name': item['name'],
         'qrCode': 'https://example.com/qrcode/ ',
-        'status': 'online'
+        'status': 'online',
+          'addedBy': 'admin',
     }
 
 # Function to scrape data
