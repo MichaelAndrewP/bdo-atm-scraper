@@ -26,11 +26,11 @@ db = firestore.Client()
 # Branch_location represents the province, Metro Manila = 2, Luzon = 3, Be sure to change this if needed
 # Makati = 11, Taguig = 22, Ortigas = 921, Pampanga = 41
 
-base_url = 'https://www.bdo.com.ph/branches-atms-locator-0?type=atm&branch_location=3&area={area}&keyword=&title=&aid=0&form_build_id=form-MzZyboi6IBXkcLIYApR9muiRba7F18QO74gIGDF1txY&form_id=branch_atm_page_form'
+base_url = 'https://www.bdo.com.ph/branches-atms-locator-0?type=atm&branch_location=2&area={area}&keyword=&title=&aid=0&form_build_id=form-MzZyboi6IBXkcLIYApR9muiRba7F18QO74gIGDF1txY&form_id=branch_atm_page_form'
 
 # List of area values
 # 11,22,921
-areas = [41]
+areas = [13]
 
 # Define the bank document path as a variable
 bank_document_path = 'banks/97EvAbFBAF1J8X7eMaYG'
@@ -123,7 +123,7 @@ def transform_item(item):
         },
         'name': item['name'],
         'qrCode': 'https://example.com/qrcode/ ',
-        'status': 'online',
+        'status': '',
           'addedBy': 'admin',
     }
 
